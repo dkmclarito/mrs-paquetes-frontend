@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <form className="flex flex-col w-full max-w-sm mx-auto mt-8 p-4 border border-gray-300 rounded-lg shadow-md">
       
-      <label className="mb-2 font-semibold" htmlFor="username">Usuario</label>
+      <label className="mb-2 font-semibold" htmlFor="username">Usuario:</label>
       <input
         type="text"
         id="username"
@@ -12,7 +12,7 @@ export default function Home() {
         required
       />
 
-      <label className="mb-2 font-semibold" htmlFor="password">Contraseña</label>
+      <label className="mb-2 font-semibold" htmlFor="password">Contraseña:</label>
       <input
         type="password"
         id="password"
