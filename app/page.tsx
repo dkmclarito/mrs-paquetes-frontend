@@ -2,15 +2,18 @@ import Image from "next/image";
 
 export default function Home() {
   return (    
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="min-h-screen flex justify-center items-center" style={{backgroundImage: `url('login/fondo.jpg')`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    }}>
       {/*<div className="min-h-screen bg-white flex justify-center items-center"> para poner el fondo blanco*/}
-    <form className="flex flex-col w-full max-w-sm mx-auto mt-8 p-4 border border-gray-300 rounded-lg shadow-md">      
+    <form className="bg-white flex flex-col w-full max-w-sm mx-auto mt-8 p-4 border border-gray-300 rounded-lg shadow-md">      
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-0 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-21 w-auto"
-            src="logo.png"
-            alt="Mrs Paquetes"
+            src="login/logo.png"
+            alt="Mr Paquetes"
           />
           <h3 className=" text-center text-2xl font-bold leading-3 tracking-tight text-blue-600">
             Ingrese sus credenciales
