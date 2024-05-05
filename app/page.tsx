@@ -7,7 +7,7 @@ export default function Home() {
     backgroundSize: "cover",
     }}>
       {/*<div className="min-h-screen bg-white flex justify-center items-center"> para poner el fondo blanco*/}
-    <form className="bg-white flex flex-col w-full max-w-sm mx-auto mt-8 p-4 border border-gray-300 rounded-lg shadow-md">      
+    <div className="bg-white flex flex-col w-full max-w-sm mx-auto mt-8 p-4 border border-gray-300 rounded-lg shadow-md">      
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-0 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
@@ -72,7 +72,7 @@ export default function Home() {
           </form>        
         </div>
       </div>
-    </form>
+    </div>
     </div>
   );
   
